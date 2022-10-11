@@ -1,0 +1,13 @@
+#CLI task (created in vim)
+#To create hidden file/folder - add dot .
+cat .file1.txt
+#list all files (with hidden one)
+ls -a
+
+#to create multiple nested directories use mkdir with option -p
+mkdir -p these/folders/are/just/for/fun
+
+#to append multiple lines, we can use the echo command and hit the return key to type over multiple lines. 
+#Then we add the redirection append operator “>>”
+echo "first message
+> second message" >> test.txt

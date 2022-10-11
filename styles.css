@@ -1,0 +1,50 @@
+body {
+    font-family: Segoe UI, sans-serif;
+    color: #484848;
+}
+
+#left {
+    float: left;
+    width: 300px;
+    height: 950px;
+    background-color: cornflowerblue;
+    margin-top: 0;
+    margin-right: 20px;
+    color:white;
+    padding: 10px;
+}
+
+#right {
+    float: left;
+}
+
+.about img{
+    position: relative;
+    max-width: 90%;
+    height: auto;
+    margin:15px;
+}
+.about p{
+    text-align: justify;
+    padding: 10px;
+}
+
+.skills {
+    padding:10px;
+}
+
+.skills ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact {
+    padding: 10px;
+}
+
+.work h1{
+    display: inline-flex;
+    background-color: #484848;
+    color: white;
+}
